@@ -1,0 +1,38 @@
+body {
+  background-image: url("../images/wallpaper.jpg");
+}
+nav {
+  margin-top: 15px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-gap: 10px;
+  width: 800px;
+  margin: 10px auto;
+}
+.wrapper div {
+  font-size: 125px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+input:hover, .back:hover, .finished:hover {
+  cursor: pointer;
+}
+.paired {
+  opacity: .5;
+}
+.finished {
+  position: absolute;
+  width: 160px;
+  background-color: #80cbc4;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  top: 190px;
+  left: 45%;
+}

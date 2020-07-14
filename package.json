@@ -1,0 +1,29 @@
+{
+  "name": "guess_card",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-less": "^3.3.8",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1",
+    "less": "^3.12.0",
+    "node": "^14.5.0",
+    "popper.js": "^1.14.3"
+  }
+}
