@@ -1,2 +1,2 @@
 # gulp_example
-Example gulp task manager
+Example for settings Gulp task manager
